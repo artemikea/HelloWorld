@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/Greetings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <recent name="com.artem.lessons.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.artem.lessons.MyIntArrayList">
+  <component name="RunManager" selected="Application.com.artem.lessons.arraylist.MyIntArrayList">
     <configuration name="Greetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greetings" />
       <module name="HWproject" />
@@ -70,7 +72,7 @@
       <module name="HWproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.artem.lessons.arraylist.*" />
+          <option name="PATTERN" value="com.artem.lessons.arraylist.TestArray" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +92,7 @@
       <module name="HWproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.artem.lessons.arraylist.*" />
+          <option name="PATTERN" value="com.artem.lessons.arraylist.TestArray" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +105,7 @@
       <module name="HWproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.artem.lessons.arraylist.*" />
+          <option name="PATTERN" value="com.artem.lessons.arraylist.TestArray" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.artem.lessons.MyIntArrayList" />
+        <item itemvalue="Application.com.artem.lessons.arraylist.MyIntArrayList" />
         <item itemvalue="Application.com.artem.lessons.SortArray" />
         <item itemvalue="Application.com.artem.lessons.Greetings" />
         <item itemvalue="Application.SortArray" />

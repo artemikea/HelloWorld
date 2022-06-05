@@ -1,11 +1,11 @@
 package com.artem.lessons.arraylist;
 
-class TestArray {
+class List {
     int [] array;
-    int index;
+    private int index;
     int size;
 
-    public TestArray() {
+    public List() {
         index = 0;
         size = 2;
         array = new int[size];
@@ -39,18 +39,19 @@ class TestArray {
     }
 
     //return element by index
-    public int get(int i) {
+    public int getElement(int i) {
         return array[i];
     }
 
     //return list size;
-    public int size() {
+    public int getSize() {
         return index;
     }
 
     //clear list
     public void clear() {
         size = 2;
+        index = 0;
         array = new int[size];
     }
 }
