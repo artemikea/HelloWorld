@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.artem.lessons/Greetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.artem.lessons/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.artem.lessons/MyIntArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.artem.lessons/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Greetings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.artem.lessons/Greetings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.artem.lessons/SortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/home/artknutov/IdeaProjects/HWproject/src/com.artem.lessons",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -52,10 +56,23 @@
       <recent name="$PROJECT_DIR$/src/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortArray">
+  <component name="RunManager" selected="Application.MyIntArrayList">
     <configuration name="Greetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greetings" />
       <module name="HWproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyIntArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artem.lessons.MyIntArrayList" />
+      <module name="HWproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artem.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,8 +84,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.artem.lessons.Greetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artem.lessons.Greetings" />
+      <module name="HWproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artem.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.artem.lessons.SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artem.lessons.SortArray" />
+      <module name="HWproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artem.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyIntArrayList" />
+        <item itemvalue="Application.com.artem.lessons.SortArray" />
+        <item itemvalue="Application.com.artem.lessons.Greetings" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.Greetings" />
       </list>
