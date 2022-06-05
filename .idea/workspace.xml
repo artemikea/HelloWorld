@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.artem.lessons/TestArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/MyIntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.artem.lessons/MyIntArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/Greetings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.artem.lessons/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/SortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.artem.lessons" />
+      <recent name="com.artem.lessons.arraylist" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.artem.lessons.MyIntArrayList">
