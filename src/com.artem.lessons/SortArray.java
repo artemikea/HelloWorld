@@ -1,3 +1,5 @@
+package com.artem.lessons;
+
 import java.util.Random;
 import java.util.Arrays;
 
