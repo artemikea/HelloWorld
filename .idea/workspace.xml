@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

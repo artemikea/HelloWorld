@@ -3,21 +3,18 @@ package com.artem.lessons.arraylist;
 class List {
     int [] array;
     private int index;
-    int size;
 
     public List() {
         index = 0;
-        size = 2;
-        array = new int[size];
+        array = new int[2];
     }
 
     //add element in the end and return index
     public int add(int element) {
-        if (index == size ) {
-            int [] temp = new int[size * 2];
-            System.arraycopy(array, 0, temp, 0, size);
+        if (index == array.length ) {
+            int [] temp = new int[array.length * 2];
+            System.arraycopy(array, 0, temp, 0, array.length);
             array = temp;
-            size = size * 2;
         }
         array[index] = element;
         index++;
@@ -26,11 +23,19 @@ class List {
 
     //insert element by index
     public void insert( int element, int i) {
-        int [] temp = new int[size + 1];
-        System.arraycopy(array, 0, temp, 0, i);
-        System.arraycopy(array, i, temp, i + 1, size - i - 1);
-        temp[i] = element;
-        array = temp;
+        if (index == array.length) {
+            int [] temp = new int[array.length + 1];
+            System.arraycopy(array, 0, temp, 0, i);
+            System.arraycopy(array, i, temp, i + 1, array.length - i - 1);
+            temp[i] = element;
+            array = temp;
+        }
+        else {
+            for (int j = index; j > i; j--) {
+                array[j] = array[j-1];
+            }
+            array[i] = element;
+        }
     }
 
     //overwrite element
@@ -50,8 +55,18 @@ class List {
 
     //clear list
     public void clear() {
-        size = 2;
         index = 0;
-        array = new int[size];
+        array = new int[2];
+    }
+
+    public void printList() {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+
+    public void remove() {
+        array[array.length - 1] = 0;
+        index--;
     }
 }
