@@ -10,7 +10,7 @@ public class TestList {
     public void checkAdd(List list) {
         list.add(2);
         int element = list.getElement(0);
-        if (element != 3) {
+        if (element != 2) {
             System.out.println("Wrong element");
         }
         list.remove();
