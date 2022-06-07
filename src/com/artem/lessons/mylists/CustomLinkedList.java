@@ -1,10 +1,10 @@
 package com.artem.lessons.mylists;
 
-public class CustomLinkedList {
+public class CustomLinkedList implements ICustomList {
     Container current = null;
     int size = 0;
 
-    public void add(int value) {
+    public int add(int value) {
         Container container = new Container(value);
 
         if (current == null) {
@@ -18,6 +18,7 @@ public class CustomLinkedList {
         }
         current.next = null;
         size++;
+        return size-1;
     }
 
     public void insert(int value, int index) {
@@ -47,14 +48,6 @@ public class CustomLinkedList {
     }
 
     public int size() {
-        /*
-        int i = 0;
-        Container temp = current;
-        while (temp != null) {
-            temp = temp.previous;
-            i++;
-        }
-         */
         return size;
     }
 

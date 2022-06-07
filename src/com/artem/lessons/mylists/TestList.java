@@ -1,4 +1,4 @@
-package com.artem.lessons.arraylist;
+package com.artem.lessons.mylists;
 
 import com.artem.lessons.mylists.CustomLinkedList;
 

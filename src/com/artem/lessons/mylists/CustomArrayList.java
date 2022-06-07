@@ -1,6 +1,6 @@
 package com.artem.lessons.mylists;
 
-class CustomArrayList {
+class CustomArrayList implements ICustomList {
     int [] array;
     private int size;
 
@@ -60,15 +60,11 @@ class CustomArrayList {
     }
     //print list
     public void printList() {
-        int n = size();
-        if (n == 0) {
+        if (size() == 0) {
             System.out.println("Empty");
-        }
-        else {
-            int i = 1;
-            while(i <= size) {
+        } else {
+            for(int i = 1; i < size; i++) {
                 System.out.print(get(i) + " ");
-                i++;
             }
         }
         System.out.println();

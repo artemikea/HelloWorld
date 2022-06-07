@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/ICustomList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
