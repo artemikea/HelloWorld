@@ -31,9 +31,7 @@ class List {
             array = temp;
         }
         else {
-            for (int j = index; j > i; j--) {
-                array[j] = array[j-1];
-            }
+            System.arraycopy(array, i, array, i + 1, array.length - i - 1);
             array[i] = element;
         }
     }
@@ -44,13 +42,13 @@ class List {
     }
 
     //return element by index
-    public int getElement(int i) {
+    public int get(int i) {
         return array[i];
     }
 
     //return list size;
-    public int getSize() {
-        return index;
+    public int size() {
+        return index + 1;
     }
 
     //clear list
@@ -58,15 +56,11 @@ class List {
         index = 0;
         array = new int[2];
     }
-
+    //print list
     public void printList() {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
-    }
-
-    public void remove() {
-        array[array.length - 1] = 0;
-        index--;
+        System.out.println();
     }
 }

@@ -1,26 +1,20 @@
 package com.artem.lessons.arraylist;
 
 public class TestList {
-    /*private List list;
-
-    public TestList(List list) {
-        this.list = list;
-    }*/
     //check if element is incorrect
-    public void checkAdd(List list) {
-        list.add(2);
-        int element = list.getElement(0);
-        if (element != 2) {
-            System.out.println("Wrong element");
+    public void checkAdd(List tlist) {
+        try {
+            tlist.add(2);
+            int element = tlist.get(0);
+            if (element != 2) throw new Exception("Wrong number");
         }
-        list.remove();
-
+        catch(Exception ex) {
+            System.out.println(ex.getMessage());
+        }
     }
-    //check is list empty
-    public void checkClear(List list) {
-        int i = list.getSize();
-        if (i != 0) {
-            System.out.println("List is not clear");
-        }
+    public void chkAdd(List tlist) {
+        tlist.add(1);
+        tlist.add(2);
+        tlist.add(3);
     }
 }
