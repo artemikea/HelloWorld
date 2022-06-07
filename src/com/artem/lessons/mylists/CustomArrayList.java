@@ -1,40 +1,40 @@
-package com.artem.lessons.arraylist;
+package com.artem.lessons.mylists;
 
-class List {
+class CustomArrayList {
     int [] array;
-    private int index;
+    private int size;
 
-    public List() {
-        index = 0;
+    public CustomArrayList() {
+        size = 0;
         array = new int[2];
     }
 
     //add element in the end and return index
     public int add(int element) {
-        if (index == array.length ) {
+        if (size == array.length ) {
             int [] temp = new int[array.length * 2];
             System.arraycopy(array, 0, temp, 0, array.length);
             array = temp;
         }
-        array[index] = element;
-        index++;
-        return index-1;
+        array[size] = element;
+        size++;
+        return size -1;
     }
 
     //insert element by index
     public void insert( int element, int i) {
-        if (index == array.length) {
+        if (size == array.length) {
             int [] temp = new int[array.length + 1];
             System.arraycopy(array, 0, temp, 0, i);
             System.arraycopy(array, i, temp, i + 1, array.length - i - 1);
             temp[i] = element;
             array = temp;
-            index++;
+            size++;
         }
         else {
             System.arraycopy(array, i, array, i + 1, array.length - i - 1);
             array[i] = element;
-            index++;
+            size++;
         }
     }
 
@@ -45,23 +45,31 @@ class List {
 
     //return element by index
     public int get(int i) {
-        return array[i];
+        return array[i-1];
     }
 
     //return list size;
     public int size() {
-        return index;
+        return size;
     }
 
     //clear list
     public void clear() {
-        index = 0;
+        size = 0;
         array = new int[2];
     }
     //print list
     public void printList() {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        int n = size();
+        if (n == 0) {
+            System.out.println("Empty");
+        }
+        else {
+            int i = 1;
+            while(i <= size) {
+                System.out.print(get(i) + " ");
+                i++;
+            }
         }
         System.out.println();
     }

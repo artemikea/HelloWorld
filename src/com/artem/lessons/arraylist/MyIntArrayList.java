@@ -1,9 +1,11 @@
 package com.artem.lessons.arraylist;
 
+import com.artem.lessons.mylists.CustomLinkedList;
+
 public class MyIntArrayList {
     public static void main (String[] args) {
-        List list = new List();
-        List tlist = new List();
+        CustomLinkedList list = new CustomLinkedList();
+        CustomLinkedList tlist = new CustomLinkedList();
         TestList testList = new TestList();
 
         testList.checkAdd(tlist);

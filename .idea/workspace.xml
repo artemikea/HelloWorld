@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/MyIntArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/arraylist/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/linkedlist/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/CustomLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +62,13 @@
       <recent name="com.artem.lessons.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Entry">
+  <component name="RunManager" selected="Application.com.artem.lessons.mylists.Entry">
     <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.artem.lessons.linkedlist.Entry" />
       <module name="HWproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.artem.lessons.linkedlist.*" />
+          <option name="PATTERN" value="com.artem.lessons.mylists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,13 +85,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortArray" />
-      <module name="HWproject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.artem.lessons.mylists.Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artem.lessons.mylists.Entry" />
+      <module name="HWproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artem.lessons.mylists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entry" />
+        <item itemvalue="Application.com.artem.lessons.mylists.Entry" />
+        <item itemvalue="Application.com.artem.lessons.linkedlist.Entry" />
         <item itemvalue="Application.com.artem.lessons.arraylist.MyIntArrayList" />
         <item itemvalue="Application.com.artem.lessons.SortArray" />
         <item itemvalue="Application.com.artem.lessons.Greetings" />
-        <item itemvalue="Application.SortArray" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package com.artem.lessons.linkedlist;
+package com.artem.lessons.mylists;
 
 public class Container {
     int value;

@@ -1,7 +1,8 @@
-package com.artem.lessons.linkedlist;
+package com.artem.lessons.mylists;
 
-public class List {
+public class CustomLinkedList {
     Container current = null;
+    int size = 0;
 
     public void add(int value) {
         Container container = new Container(value);
@@ -9,21 +10,21 @@ public class List {
         if (current == null) {
             current = container;
             current.previous = null;
-        }
-        else {
+        } else {
             current.next = container;
             container.previous = current;
             current = container;
 
         }
         current.next = null;
+        size++;
     }
 
     public void insert(int value, int index) {
         Container container = new Container(value);
         Container temp = current;
         int j = size() - index;
-        for(int i = 0; i < j; i++) {
+        for (int i = 0; i < j; i++) {
             temp = temp.previous;
         }
         container.next = temp;
@@ -33,31 +34,34 @@ public class List {
         temp = temp.next;
         temp = temp.next;
         temp.previous = container;
+        size++;
     }
 
     public int get(int index) {
         Container temp = current;
         int j = size() - index;
-        for(int i = 0; i < j; i++) {
+        for (int i = 0; i < j; i++) {
             temp = temp.previous;
         }
         return temp.value;
     }
 
     public int size() {
+        /*
         int i = 0;
         Container temp = current;
         while (temp != null) {
             temp = temp.previous;
             i++;
         }
-        return i;
+         */
+        return size;
     }
 
     public void set(int value, int index) {
         Container temp = current;
         int j = size() - index;
-        for(int i = 0; i < j; i++) {
+        for (int i = 0; i < j; i++) {
             temp = temp.previous;
         }
         temp.value = value;
@@ -72,19 +76,17 @@ public class List {
     }
 
     public void printList() {
-        Container temp = current;
-        if (temp == null) {
+        int n = size();
+        if (n == 0) {
             System.out.println("Empty");
         }
         else {
-            while (temp != null && temp.previous != null) {
-                temp = temp.previous;
+            int i = 1;
+            while(i <= size) {
+                System.out.print(get(i) + " ");
+                i++;
             }
-            while (temp != null) {
-                System.out.print(temp.value + " ");
-                temp = temp.next;
-            }
-            System.out.println();
         }
+        System.out.println();
     }
 }
