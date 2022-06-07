@@ -29,10 +29,12 @@ class List {
             System.arraycopy(array, i, temp, i + 1, array.length - i - 1);
             temp[i] = element;
             array = temp;
+            index++;
         }
         else {
             System.arraycopy(array, i, array, i + 1, array.length - i - 1);
             array[i] = element;
+            index++;
         }
     }
 
@@ -48,7 +50,7 @@ class List {
 
     //return list size;
     public int size() {
-        return index + 1;
+        return index;
     }
 
     //clear list
