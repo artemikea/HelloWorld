@@ -1,10 +1,9 @@
 package com.artem.lessons.mylists;
 
-public class CustomLinkedList implements ICustomList {
+public class CustomLinkedList<T> extends AbstractCustomList<T> {
     Container current = null;
-    int size = 0;
 
-    public int add(int value) {
+    public int add(T value) {
         Container container = new Container(value);
 
         if (current == null) {
@@ -18,10 +17,10 @@ public class CustomLinkedList implements ICustomList {
         }
         current.next = null;
         size++;
-        return size-1;
+        return size - 1;
     }
 
-    public void insert(int value, int index) {
+    public void insert(T value, int index) {
         Container container = new Container(value);
         Container temp = current;
         int j = size() - index;
@@ -38,20 +37,16 @@ public class CustomLinkedList implements ICustomList {
         size++;
     }
 
-    public int get(int index) {
+    public Object get(int index) {
         Container temp = current;
-        int j = size() - index;
+        int j = size() - index - 1;
         for (int i = 0; i < j; i++) {
             temp = temp.previous;
         }
         return temp.value;
     }
 
-    public int size() {
-        return size;
-    }
-
-    public void set(int value, int index) {
+    public void set(T value, int index) {
         Container temp = current;
         int j = size() - index;
         for (int i = 0; i < j; i++) {
@@ -66,20 +61,6 @@ public class CustomLinkedList implements ICustomList {
             current = current.previous;
         }
         current = null;
-    }
-
-    public void printList() {
-        int n = size();
-        if (n == 0) {
-            System.out.println("Empty");
-        }
-        else {
-            int i = 1;
-            while(i <= size) {
-                System.out.print(get(i) + " ");
-                i++;
-            }
-        }
-        System.out.println();
+        size = 0;
     }
 }

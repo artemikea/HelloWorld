@@ -1,11 +1,11 @@
 package com.artem.lessons.mylists;
 
-public class Container {
-    int value;
+public class Container<T> {
+    T value;
     Container next;
     Container previous;
 
-    public Container(int value) {
+    public Container(T value) {
         this.value = value;
     }
 }

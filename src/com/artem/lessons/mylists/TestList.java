@@ -4,21 +4,19 @@ import com.artem.lessons.mylists.CustomLinkedList;
 
 public class TestList {
     //check if element is incorrect
-    public void checkAdd(CustomLinkedList tlist) {
-        try {
-            tlist.add(2);
-            int element = tlist.get(0);
-            if (element != 2) throw new Exception("Wrong number");
-            tlist.clear();
-        }
-        catch(Exception ex) {
-            System.out.println(ex.getMessage());
+    public static void addTest(ICustomList testList) throws Exception {
+        testList.add(2);
+        Object obj = 2;
+        if (testList.get(0) != obj) {
+            throw new Exception("There is a problem");
         }
     }
-    public void chkAdd(CustomLinkedList tlist) {
-        tlist.add(1);
-        tlist.add(2);
-        tlist.add(3);
-        tlist.clear();
+
+    public static void clearTest(ICustomList testList) throws Exception {
+        testList.add(1);
+        testList.clear();
+        if (testList.size() != 0) {
+            throw new Exception(("There is a problem"));
+        }
     }
 }
