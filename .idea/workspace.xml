@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/HashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +128,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.artem.lessons.myhashmap.Entry" />
-        <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.com.artem.lessons.mylists.Entry" />
+        <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.com.artem.lessons.linkedlist.Entry" />
         <item itemvalue="Application.com.artem.lessons.arraylist.MyIntArrayList" />
       </list>
@@ -178,15 +179,6 @@
           <properties class="java.lang.Exception" package="java.lang" />
           <option name="timeStamp" value="15" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java</url>
-          <line>35</line>
-          <properties class="com.artem.lessons.myhashmap.CustomHashMap" method="printHashMap">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

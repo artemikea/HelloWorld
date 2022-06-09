@@ -10,6 +10,14 @@ public class CustomHashMap {
     }
 
     public void put(int key, String value) {
+        Object obj = key;
+        int check = 0;
+        for (int i = 0; i < size; i++) {
+            if (array[i][0].equals(obj)) {
+                array[i][1] = value;
+                check++;
+            }
+        }
         if (size == array.length) {
             Object[][] temp = new Object[array.length * 2][2];
             for (int i = 0; i < array.length; i++) {
@@ -17,10 +25,13 @@ public class CustomHashMap {
             }
             array = temp;
         }
-        array[size][0] = key;
-        array[size][1] = value;
-        size++;
+        if (check < 1) {
+            array[size][0] = key;
+            array[size][1] = value;
+            size++;
+        }
     }
+
 
     public Object get(int key) {
         Object obj = key;
@@ -41,7 +52,7 @@ public class CustomHashMap {
                 for (int j = 0; j < array[i].length; j++) {
                     if (j < 1) {
                         System.out.print(array[i][j] + "=");
-                    }else{
+                    } else {
                         System.out.print(array[i][j]);
                     }
                 }

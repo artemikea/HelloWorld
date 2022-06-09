@@ -30,6 +30,5 @@ public class Entry {
         list1.add(2);
         list1.add(2);
         list1.printList();
-        System.out.println(list1.size());
-    }
+        System.out.println(list1.size());    }
 }
