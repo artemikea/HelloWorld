@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/CustomHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/myhashmap/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/artem/lessons/mylists/Entry.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d8a84d8-9431-4657-bd5e-efe27e1ec00d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
