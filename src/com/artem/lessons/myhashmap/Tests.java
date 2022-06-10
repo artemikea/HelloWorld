@@ -27,7 +27,6 @@ public class Tests {
         for (int i = 0; i < 10000; i++) {
             String key = UUID.randomUUID().toString();
             String value = UUID.randomUUID().toString().replace("-", "");
-            testHashMap.put(key, value);
             array[i] = key;
         }
         long startTime = System.currentTimeMillis();
