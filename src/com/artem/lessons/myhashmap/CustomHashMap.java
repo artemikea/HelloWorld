@@ -9,7 +9,7 @@ public class CustomHashMap {
         array = new Object[2][2];
     }
 
-    public void put(int key, String value) {
+    public void put(String key, String value) {
         Object obj = key;
         int check = 0;
         for (int i = 0; i < size; i++) {
@@ -33,7 +33,7 @@ public class CustomHashMap {
     }
 
 
-    public Object get(int key) {
+    public Object get(String key) {
         Object obj = key;
         int i;
         for (i = 0; i < size; i++) {
