@@ -9,6 +9,7 @@ public class HashCode {
         Object object1 = new Object();
         int xCode = object1.hashCode();
         System.out.println(xCode);
+        int x = 0;
 
         System.out.println(object.equals(object1));
     }

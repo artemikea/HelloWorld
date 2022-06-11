@@ -14,27 +14,29 @@ public class Tests {
 
     public static void putTimeTest(CustomHashMap testHashMap) {
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 30000; i++) {
             String key = UUID.randomUUID().toString();
-            String value = UUID.randomUUID().toString().replace("-", "");
+            String value = key;
+            key = key + key;
             testHashMap.put(key, value);
         }
-        System.out.println(System.currentTimeMillis() - startTime);
+        System.out.println("Put 30.000 times: " + (System.currentTimeMillis() - startTime));
     }
 
     public static void getTimeTest(CustomHashMap testHashMap) {
-        String[] array = new String[10000];
-        for (int i = 0; i < 10000; i++) {
+        String[] array = new String[30000];
+        for (int i = 0; i < 30000; i++) {
             String key = UUID.randomUUID().toString();
-            String value = UUID.randomUUID().toString().replace("-", "");
+            String value = key;
+            key = key + key;
             testHashMap.put(key, value);
             array[i] = key;
         }
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 30000; i++) {
             testHashMap.get(array[i]);
         }
-        System.out.println(System.currentTimeMillis() - startTime);
+        System.out.println("Get 30.000 times " + (System.currentTimeMillis() - startTime));
     }
 }
 
