@@ -1,7 +1,7 @@
 package com.artem.lessons.myhashmap;
 
 
-public class CustomHashMap {
+public class CustomHashMap implements ICustom {
     int size;
     Box[] array;
 
@@ -10,7 +10,7 @@ public class CustomHashMap {
         array = new Box[2];
     }
 
-    public void put(String key, String value) {
+    public void put(Object key, Object value) {
         if (size == array.length) {
             Box[] temp = new Box[array.length * 2];
             for (int i = 0; i < array.length; i++) {
@@ -18,7 +18,7 @@ public class CustomHashMap {
             }
             array = temp;
         }
-        int hash = key.hashCode();
+        int hash = hashCode(key);
         int check = 0;
         for (int i = 0; i < size; i++) {
             if (array[i].hash == hash) {
@@ -31,7 +31,7 @@ public class CustomHashMap {
                             temp.prev.next = temp;
                         }
                         if (temp.next != null) {
-                            temp.prev.next = temp;
+                            temp.next.prev = temp;
                         }
                         array[i] = temp;
                         temp.key = key;
@@ -60,8 +60,8 @@ public class CustomHashMap {
         }
     }
 
-    public String get(String key) {
-        String value = new String();
+    public Object get(Object key) {
+        Object value = new Object();
         int hash = key.hashCode();
         for (int i = 0; i < size; i++) {
             if (array[i].hash == hash) {

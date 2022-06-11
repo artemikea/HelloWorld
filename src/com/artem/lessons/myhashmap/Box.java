@@ -2,12 +2,12 @@ package com.artem.lessons.myhashmap;
 
 public class Box {
     int hash;
-    String key;
-    String value;
+    Object key;
+    Object value;
     Box next = null;
     Box prev = null;
 
-    public Box(String key, String value) {
+    public Box(Object key, Object value) {
         this.value = value;
         this.key = key;
     }
